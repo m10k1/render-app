@@ -6,6 +6,7 @@ import numpy as np
 st.title("🎈 Streamlit チュートリアルアプリ")
 st.write("ようこそ！これは Streamlit の基本を学ぶための簡単なデモアプリです。")
 
+
 # 入力ウィジェット
 name = st.text_input("お名前を入力してください:")
 number = st.slider("好きな数字を選んでください:", 0, 100, 50)
